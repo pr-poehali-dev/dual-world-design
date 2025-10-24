@@ -36,7 +36,7 @@ const Index = () => {
           variant={activeWorld === 'light' ? 'default' : 'outline'}
           className="bg-light-world text-dark-world hover:bg-light-world/90 border-2 border-dark-world font-montserrat font-bold"
         >
-          СВІТЛИЙ СВІТ
+          СВЕТЛЫЙ МИР
         </Button>
         <div className="w-12 h-12 relative">
           <div 
@@ -54,7 +54,7 @@ const Index = () => {
           variant={activeWorld === 'dark' ? 'default' : 'outline'}
           className="bg-dark-world text-light-world hover:bg-dark-world/90 border-2 border-light-world font-montserrat font-bold"
         >
-          ТЕМНИЙ СВІТ
+          ТЕМНЫЙ МИР
         </Button>
       </div>
 
@@ -66,29 +66,29 @@ const Index = () => {
         
         <div className="container mx-auto px-4 text-center relative z-10 animate-fade-in">
           <h1 className="text-8xl md:text-9xl font-montserrat font-black mb-8 tracking-tighter">
-            СВІТЛО
+            СВЕТ
           </h1>
           <p className="text-2xl md:text-3xl font-roboto mb-12 max-w-2xl mx-auto leading-relaxed">
-            Тут панує порядок, ясність і гармонія. Світ, де кожна деталь на своєму місці.
+            Здесь царит порядок, ясность и гармония. Мир, где каждая деталь на своём месте.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-4xl mx-auto">
             <div className="bg-white/80 backdrop-blur-sm p-8 border-4 border-dark-world transition-transform hover:scale-105">
               <Icon name="Sun" size={48} className="mx-auto mb-4 text-vibrant-red" />
-              <h3 className="text-2xl font-montserrat font-bold mb-2">Енергія</h3>
-              <p className="font-roboto">Безмежна сила створення</p>
+              <h3 className="text-2xl font-montserrat font-bold mb-2">Энергия</h3>
+              <p className="font-roboto">Безграничная сила созидания</p>
             </div>
             
             <div className="bg-white/80 backdrop-blur-sm p-8 border-4 border-dark-world transition-transform hover:scale-105">
               <Icon name="Lightbulb" size={48} className="mx-auto mb-4 text-electric-cyan" />
-              <h3 className="text-2xl font-montserrat font-bold mb-2">Ідеї</h3>
-              <p className="font-roboto">Народження нового</p>
+              <h3 className="text-2xl font-montserrat font-bold mb-2">Идеи</h3>
+              <p className="font-roboto">Рождение нового</p>
             </div>
             
             <div className="bg-white/80 backdrop-blur-sm p-8 border-4 border-dark-world transition-transform hover:scale-105">
               <Icon name="Zap" size={48} className="mx-auto mb-4 text-vibrant-red" />
-              <h3 className="text-2xl font-montserrat font-bold mb-2">Дія</h3>
-              <p className="font-roboto">Рух вперед без зупинок</p>
+              <h3 className="text-2xl font-montserrat font-bold mb-2">Действие</h3>
+              <p className="font-roboto">Движение вперёд без остановок</p>
             </div>
           </div>
 
@@ -97,7 +97,7 @@ const Index = () => {
               onClick={() => scrollToWorld('dark')}
               className="bg-dark-world text-light-world hover:bg-dark-world/90 px-12 py-6 text-xl font-montserrat font-bold border-4 border-dark-world"
             >
-              ВІДКРИТИ ТЕМНИЙ СВІТ
+              ОТКРЫТЬ ТЕМНЫЙ МИР
               <Icon name="ArrowDown" className="ml-2" />
             </Button>
           </div>
@@ -118,29 +118,29 @@ const Index = () => {
 
         <div className="container mx-auto px-4 text-center relative z-10 animate-fade-in">
           <h1 className="text-8xl md:text-9xl font-montserrat font-black mb-8 tracking-tighter">
-            ТІНЬ
+            ТЕНЬ
           </h1>
           <p className="text-2xl md:text-3xl font-roboto mb-12 max-w-2xl mx-auto leading-relaxed">
-            Глибина, таємниця і спокій. Місце, де народжуються мрії та інтуїція.
+            Глубина, тайна и покой. Место, где рождаются мечты и интуиция.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-4xl mx-auto">
             <div className="bg-black/80 backdrop-blur-sm p-8 border-4 border-light-world transition-transform hover:scale-105">
               <Icon name="Moon" size={48} className="mx-auto mb-4 text-electric-cyan" />
-              <h3 className="text-2xl font-montserrat font-bold mb-2">Спокій</h3>
-              <p className="font-roboto">Тиша для роздумів</p>
+              <h3 className="text-2xl font-montserrat font-bold mb-2">Покой</h3>
+              <p className="font-roboto">Тишина для размышлений</p>
             </div>
 
             <div className="bg-black/80 backdrop-blur-sm p-8 border-4 border-light-world transition-transform hover:scale-105">
               <Icon name="Eye" size={48} className="mx-auto mb-4 text-vibrant-red" />
-              <h3 className="text-2xl font-montserrat font-bold mb-2">Інтуїція</h3>
-              <p className="font-roboto">Внутрішнє знання</p>
+              <h3 className="text-2xl font-montserrat font-bold mb-2">Интуиция</h3>
+              <p className="font-roboto">Внутреннее знание</p>
             </div>
 
             <div className="bg-black/80 backdrop-blur-sm p-8 border-4 border-light-world transition-transform hover:scale-105">
               <Icon name="Brain" size={48} className="mx-auto mb-4 text-electric-cyan" />
-              <h3 className="text-2xl font-montserrat font-bold mb-2">Мудрість</h3>
-              <p className="font-roboto">Глибоке розуміння</p>
+              <h3 className="text-2xl font-montserrat font-bold mb-2">Мудрость</h3>
+              <p className="font-roboto">Глубокое понимание</p>
             </div>
           </div>
 
@@ -149,7 +149,7 @@ const Index = () => {
               onClick={() => scrollToWorld('light')}
               className="bg-light-world text-dark-world hover:bg-light-world/90 px-12 py-6 text-xl font-montserrat font-bold border-4 border-light-world"
             >
-              ПОВЕРНУТИСЬ ДО СВІТЛА
+              ВЕРНУТЬСЯ К СВЕТУ
               <Icon name="ArrowUp" className="ml-2" />
             </Button>
           </div>
@@ -160,10 +160,10 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="text-6xl mb-4">☯</div>
           <h2 className="text-3xl font-montserrat font-bold mb-4 bg-gradient-to-r from-dark-world to-light-world bg-clip-text text-transparent">
-            ПАРАЛЛЕЛЬНІ СВІТИ
+            ПАРАЛЛЕЛЬНЫЕ МИРЫ
           </h2>
           <p className="font-roboto text-lg text-gray-700">
-            Баланс протилежностей — ключ до гармонії
+            Баланс противоположностей — ключ к гармонии
           </p>
         </div>
       </footer>
